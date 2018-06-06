@@ -10,7 +10,9 @@
 
 ## 查询指标数据
 
-查询的表：hive.action 1、查看pg库的rules表 检查是否有对应的rule规则，以及定义的xpath等\(获取rule\_id需要看query-service的日志信息\)
+> 查询的表：hive.action
+
+1、查看pg库的rules表 检查是否有对应的rule规则，以及定义的xpath等\(获取rule\_id需要看query-service的日志信息\)
 
 2、查看online数据 web-pv mobile-pv web-action-tag mobile-action-tag 如果action表没有数据就是online出了问题
 
@@ -26,7 +28,9 @@
 
 ## 页面级变量数据
 
-postgres 库：page\_level\_variables表 hive：page\_props 表
+> postgres 库：page\_level\_variables表 
+>
+> hive：page\_props 表
 
 ## 用户变量数据
 
